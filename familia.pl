@@ -28,6 +28,15 @@ padrede('milton','paula').
 padrede('zoraida','natalia').
 padrede('zoraida','monica').
 padrede('zoraida','paula').
+padrede('jeronimo','josue').
+padrede('sixta','josue').
+padrede('josue','edward').
+padrede('josue','paola').
+padrede('josue','lorena').
+padrede('flor','edward').
+padrede('flor','paola').
+padrede('flor','lorena').
+
 
 hijode(A,B):-padrede(B,A).
 abuelode(A,B):-padrede(A,C), padrede(C,B).
